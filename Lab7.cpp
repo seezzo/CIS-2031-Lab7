@@ -21,7 +21,7 @@ void main(){
 
 
     //❓❓ Lab Question 7:
-    //Below this comment, write a for loop that outputs the names of all your friends.
+    //Below this comment, write a for loop that outputs the name and age of all your friends.
 
 
 
