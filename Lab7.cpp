@@ -12,17 +12,6 @@ string friends[4] = {"Steve", "Jane", "Jeff", "Rick"}; //TODO Remove answer
 //Below this comment, declare an array named ages with the ages of these 4 friends.
 int ages[4] = {34, 25, 52, 18}; //TODO Remove answer
 
-
-//A function that returns the LARGER of the two parameters
-int max(int a, int b){
-    if ( a > b ){
-        return a;
-    } else {
-        return b;
-    }
-}
-
-
 void main(){
 
 
