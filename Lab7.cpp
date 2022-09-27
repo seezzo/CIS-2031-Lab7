@@ -47,6 +47,14 @@ void main(){
     //❓❓ Lab Question 9:
     //Below this comment, that finds the NAME of your oldest friend.
     
-
-    //cout << "My oldest friend is named " << oldestName << endl;
+    oldest = 0;
+    int oldestFriendIndex = 0;
+    for ( int i = 0; i < 4; i++){
+        if ( ages [i] > oldest ){
+            oldest = ages[i];
+            oldestFriendIndex = i;
+            }
+    }
+   
+    cout << "My oldest friend is named " << friends[oldestFriendIndex] << endl;
 }
